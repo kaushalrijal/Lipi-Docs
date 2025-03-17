@@ -18,7 +18,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
         <Link href="/" className="flex items-center gap-2 mr-6">
-          <Code2 className="h-6 w-6" />
+          {/* <Code2 className="h-6 w-6" /> */}
+          <img src="/favicon.ico" className="h-6 w-6"/>
           <span className="font-bold">Lipi</span>
         </Link>
         <div className="hidden md:flex md:flex-1 md:items-center md:justify-between">
