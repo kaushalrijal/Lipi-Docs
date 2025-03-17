@@ -6,7 +6,8 @@ export function SiteFooter() {
     <footer className="border-t py-6 md:py-0 z-40 bg-background">
       <div className="container flex flex-col items-center justify-between gap-4 md:h-12 md:flex-row">
         <div className="flex items-center gap-2">
-          <Code2 className="h-5 w-5" />
+          {/* <Code2 className="h-5 w-5" /> */}
+          <img src="/favicon.ico" className="h-6 w-6"/>
           <p className="text-sm leading-loose text-muted-foreground">
             &copy; {new Date().getFullYear()} Lipi Programming Language. All rights reserved.
           </p>
